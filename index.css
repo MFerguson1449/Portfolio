@@ -1,0 +1,76 @@
+body {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bolder;
+    background: #190318;
+    text-align: center;
+    color: #40fdff
+}
+
+#main {
+    margin: 0px 0px 0px 0px;
+}
+
+#landing {
+    padding: 0px 0px 0px 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+#focus {
+    position: absolute;
+    bottom: 35%;
+    left: 37.5%;
+}
+
+#name {
+    color: #40fdff;
+    font-size: 280%;
+    line-height: 0.77em;
+    letter-spacing: 1px;
+}
+
+#tag {
+    position: relative;
+    bottom: 47.5px;
+    font-size: 170%;
+    color: #db21d0;
+    bottom: 45px;
+}
+
+#landing #accent_text {
+    text-decoration: underline;
+}
+
+#footer {
+    position: relative;
+    background: #190318;
+    color: #db21d0;
+    font-size: 10px;
+    height: 40px;
+    padding: 10px 0px 7px 0px;
+    border: 1px dashed black;
+}
+
+#github {
+    position: absolute;
+    left: 100px;
+    bottom: 2px;
+    font-size: 15px
+}
+
+#linkedin {
+    position: absolute;
+    left: 225px;
+    bottom: 2px;
+    font-size: 15px
+}
+
+a:link, a:visited {
+    color: #db21d0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #40fdff;
+}
