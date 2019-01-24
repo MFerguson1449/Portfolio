@@ -12,7 +12,7 @@ body {
 }
 
 #main {
-    margin: 30px 10% 0px 10%;
+    margin: 20px 10% 0px 10%;
 }
 
 
@@ -125,7 +125,7 @@ ul img {
     width: 66%;
 }
 
-#tools {
+#icons {
     border: 0px solid white;
     display: flex;
     flex-direction: row;
@@ -142,11 +142,13 @@ ul img {
 #focus #email {
     border: 0px solid white;
     display: inline-flex;
+    width: 70%;
 }
 
 #focus #github {
     border: 0px solid white;
     display: inline-flex;
+    margin-left: -20%
 }
 
 #focus #linkedin {
@@ -155,19 +157,21 @@ ul img {
 }
 
 #aboutme {
+    display: flex;
     position: relative;
     border: 0px #60aedb dashed;
-    margin: 20% 10% 20% 7%;
-    padding: 75px 0px 0px 0px;
+    margin: 5% 5% 10% 5%;
+    padding: 5px 0px 0px 0px;
     border-left: 5px #0cebff inset;
     border-right: 5px #0cebff inset;
     border-radius: 50px;
-    background: rgba(0, 0, 0,0.6); 
+    background: rgba(0, 0, 0,0.6);
+    text-align: left;
+    align-content: center;
 }
 
 #aboutme .subtitle {
-    position: relative;
-    left: 28px;
+    color: white;
 }
 
 #contact .subtitle {
@@ -176,12 +180,11 @@ ul img {
 }
 
 #aboutme #skills {
-    float: right;
-    border-left: 3px inset #0cebff;
-    text-align: left;
+    border-left: 0px inset #0cebff;
     line-height: 1.4em;
-    margin: 0% 20% 5% 15%;
-    padding-left: 5%;
+    margin: 0% 15% 5% 15%;
+    padding: 5% 5% 0% 5%;
+    height: 15%;
 }
 
 #skills li {
@@ -190,11 +193,8 @@ ul img {
     letter-spacing: .1em;
     line-height: 35px;
     color: #0cebff;
-}
-
-#aboutme #city {
-    position: relative;
-    bottom: -3px;
+    float: left;
+    width: 15em;
 }
 
 #projects {
@@ -206,6 +206,16 @@ ul img {
     border-right: 5px #0cebff inset;
     border-radius: 50px;
     background: rgba(0, 0, 0,0.6); 
+}
+
+#bff {
+    border: 0px white solid;
+    width: 100%;
+    color: white;
+}
+
+#bff-logo {
+    width: 30%;
 }
 
 #copyright {
