@@ -7,14 +7,10 @@ body {
     font-family: 'Montserrat', cursive;
     text-align: center;
     color: black;
-    background: url(img/port-page-back.jpg);
+    background: url(img/black-page-back.jpg);
     background-size: cover;
+    background: white !important;
 }
-
-#main {
-    margin: 20px 10% 0px 10%;
-}
-
 
 p {
     font-size: 16px;
@@ -41,18 +37,23 @@ ul img {
 }
 
 .title {
-    text-decoration: underline;
     color: #0cebff;
+    font-weight: 100;
+    font-size: 20px;
+    font-size: 3.3vw;
+    font-family: 'Bowlby One SC', cursive;
 }
 
 .first {
-    color: black;
+    color: white;
     position: relative;
     left: 12px
 }
 
-.subtitle {
-    text-decoration: underline;
+.container {
+    margin: 0% 0% 0% 0%;
+    border-left: 3px black solid;
+    border-right: 3 black solid;
 }
 
 #header #skills-jump {
@@ -79,7 +80,8 @@ ul img {
     min-height: 100vh;
     height: 100vh;
     z-index: -5; 
-    border: 0px solid white;   
+    background: url(img/space-back.jpg);
+    background-size: cover;
 }
 
 #focus {
@@ -95,14 +97,14 @@ ul img {
 
 #focus #bio {
     font-size: 12px;
-    color: black;
+    color: white;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     letter-spacing: 0.005em;
     line-height: 2em;
     max-width: 75%;
     background: rgba(0, 0, 0,0.0);
-    border-left: black 5px outset;
+    border-left: white 5px outset;
     border-radius: 20px;
     text-shadow: 2px .7px 15px black;
     padding: 0px 0px 20px 20px;
@@ -122,7 +124,7 @@ ul img {
     letter-spacing: 0px;
     border-bottom: #0cebff inset 4px;
     padding: 0px 0px 5px 0px;
-    width: 66%;
+    width: 68%;
 }
 
 #icons {
@@ -158,53 +160,93 @@ ul img {
 
 #aboutme {
     display: flex;
-    position: relative;
-    border: 0px #60aedb dashed;
-    margin: 5% 5% 10% 5%;
     padding: 5px 0px 0px 0px;
-    border-left: 5px #0cebff inset;
-    border-right: 5px #0cebff inset;
-    border-radius: 50px;
-    background: rgba(0, 0, 0,0.6);
-    text-align: left;
-    align-content: center;
+    background: #bbbdc9;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    height: 75vh;
 }
 
-#aboutme .subtitle {
-    color: white;
-}
-
-#contact .subtitle {
-    position: relative;
-    left: 30%;
+#aboutme .title {
+    color: #0cebff;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 450%;
+    margin-bottom: 5%;
+    text-shadow: -5px 6px 10px black;
 }
 
 #aboutme #skills {
-    border-left: 0px inset #0cebff;
     line-height: 1.4em;
     margin: 0% 15% 5% 15%;
-    padding: 5% 5% 0% 5%;
-    height: 15%;
+    padding: 2% 5% 0% 5%;
+}
+
+#skill-blurb {
+    position: relative;
+    left: 11%;
+    width: 80%;
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+    border-bottom: 3px #222 inset;
+    font-weight: 700;
 }
 
 #skills li {
-    list-style-type: circle;
-    font-size: 50%;
-    letter-spacing: .1em;
-    line-height: 35px;
-    color: #0cebff;
-    float: left;
+    list-style-type: disc;
+    font-size: 120%;
+    letter-spacing: .01em;
+    line-height: 25px;
+    color: black;
     width: 15em;
+    text-align: left;
+    font-weight: 600;
+}
+
+#skill-lists {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 100%;
+    height: 52%;
+}
+
+#skill-lists h3 {
+    border-bottom: 4px black outset;
+    padding-bottom: 35px;
+    margin-bottom: -1px;
+}
+
+#skills #lang {
+    position: static;
+    margin-right: -100px;
+    padding: 1% 5% 0% 5%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 30px;
+    background: #c1c3ce;
+    box-shadow: -4px 7px 30px black;
+}
+
+#skills #tools {
+    position: static;
+    margin-left: -100px;
+    padding: 1% 5% 0% 5%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 30px;
+    background: #c1c3ce;
+    box-shadow: -4px 7px 30px black;
 }
 
 #projects {
     position: relative;
-    border: 0px #60aedb dashed;
-    margin: 20% 10% 20% 7%;
     padding: 75px 0px 0px 0px;
-    border-left: 5px #0cebff inset;
-    border-right: 5px #0cebff inset;
-    border-radius: 50px;
     background: rgba(0, 0, 0,0.6); 
 }
 

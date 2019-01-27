@@ -11,7 +11,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="icon/afari-pinned-tab.svg" color="#5bbad5">
+        <link rel="mask-icon" href="icon/afari-pinned-tab.svg" color="#5bbad5">       
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     </head>
@@ -20,6 +21,7 @@
         <script>
             document.body.className = 'fade';
         </script>
+
         <!--Header-->
         <div id="header">
 
@@ -39,7 +41,7 @@
 
 
         <!--Landing Page-->
-        <div id="landing">
+        <div id="landing" class="container">
             <div id="focus">
                 <div id="logo">
                     <img src="img/logo-3.png" alt="My Logo">
@@ -63,27 +65,41 @@
         
         <!--Skills-->
         <div id="main">
-            <div id="aboutme">                
-                    <div id="skills">                                              
-                        <h3 class="subtitle">Skills<h3>
+            <div id="aboutme" class="container">                
+                <div id="skills">                                              
+                    <h3 class="title"><span class="first">My</span> Skills</h3>
+                    <div id="skill-blurb">
                         <p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>Agile Methodologies</li>
-                            <li>Git Flow</li>
-                            <li>Node.js</li>
-                            <li>Photoshop</li>
-                            <li>Microsoft Office</li>
-                        </ul>
+                            I enjoy exploring and try to learn something new with every project. 
+                            I am passionate about bringing my ideas to life in the browser, below are 
+                            a list of the tools I use to do this.
                         </p>
+                    </div>
+                    <div id="skill-lists">
+                        <div id="lang">
+                            <h3>Languages</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div id="tools">
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Agile Methodologies</li>
+                                <li>Git Flow</li>
+                                <li>Node.js</li>
+                                <li>Photoshop</li>
+                                <li>Microsoft Office</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>    
             
             <!--Projects-->
-            <div id="projects">
+            <div id="projects" class="container">
                 <h1 class="title"><span class="first">My</span> Projects</h1>
                     <div id="bff">
                         <h3 id="bff-title">BFF Dog Rescue NJ Inc.</h2>
