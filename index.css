@@ -71,10 +71,6 @@ ul img {
 }
 
 #landing {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     height: 100vh;
     z-index: -5; 
@@ -83,14 +79,22 @@ ul img {
 }
 
 #focus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    background: rgba(0, 0, 0,0);
-    width: 70%;
+    width: 60%;
     height: 50%;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+#logo {
+    position: relative;
+    right: 15%;
+    top: 4%;
+    width: 120%;
 }
 
 #focus #bio {
@@ -99,20 +103,7 @@ ul img {
     font-weight: 700;
     letter-spacing: 0.1em;
     line-height: 2.8em;
-    max-width: 80%;
-    background: rgba(0, 0, 0,0.0);
-    text-shadow: 2px .7px 15px black;
-    padding: 0px 0px 15px 30px;
-    flex: 2;
-}
-
-#focus #logo {
-    width: 120%;
-    flex: 1.5;
-    margin-right: -15%;
-    position: absolute;
-    left: 42%;
-    top: 5%;
+    width: 60%;
 }
 
 #focus #name {
@@ -120,39 +111,33 @@ ul img {
     color: white;
     font-weight: 900;
     line-height: .9em;
-    font-size: 10em;
-    letter-spacing: 0px;
-    width: 100%;
+    font-size: 13em;
+    width: 130%;
+    text-align: center;
+    padding: 0% 0% 5% 0%;
+    border-bottom: 8px #f60505 solid;
+}
+
+#focus-blurb {
+    margin-top: -8%;
+    width: 130%;
 }
 
 #icons {
-    border: 0px solid white;
+    font-family: 'Michroma', sans-serif;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 70%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: row;
+    flex-direction: column;
+    width: 8.3%;
+    }
 
-}
-
-#focus #resume-button {
-    border: 0px solid white;
-    display: inline-flex;
-}
-
-#focus #email {
-    border: 0px solid white;
-    display: inline-flex;
-}
-
-#focus #github {
-    display: inline-flex;
-    border: 0px solid white;
-    margin-left: -20%
-}
-
-#focus #linkedin {
-    border: 0px solid white;
-    display: inline-flex;
+#icons p {
+    font-size: 12px;
+    font-size: 0.8vw;
 }
 
 #aboutme {
